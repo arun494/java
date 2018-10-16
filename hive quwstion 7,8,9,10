@@ -1,0 +1,4 @@
+7)  select count(case_status),year from "ip file name" group by year;
+8)  select job_title,avg(prevailing_wage),year,full_time_position from "i file name" job_title,avg(prevailing_wage),year,full_time_position sort by year;
+9)  select  employer_name,round((count(case_status)/99),2) as counts from "ip file name" where case_status="CERTIFIED" or case_status="CERTIFIED WITHDRAWN" GROUP BY emloyer_name order by counts desc limit 10; 
+10)  select  job_title,round((count(case_status)/99),2) as counts from "ip file name" where case_status="CERTIFIED" or case_status="CERTIFIED WITHDRAWN" GROUP BY job_title order by counts desc limit 10;
